@@ -1,6 +1,4 @@
-/* Portrait */
-@media screen and (orientation:portrait) {
-    /* Portrait styles here */
+@media all and (orientation:portrait) {
     .section{
         position: relative;
         width: 100%;
@@ -41,10 +39,34 @@
         height: 100vh;
         opacity: 0.1;
     }
- }
- /* Landscape */
- @media screen and (orientation:landscape) {
-    /* Landscape styles here */
+
+    .under-links{
+        padding: 50px 10% 0 10%;
+    }
+    
+    .under-links img{
+        width: 12vw;
+        height: 12vw;
+        display: table;
+    }
+    
+    .under-links a{
+        font-size: 1.5rem;
+        color: #000;
+        display: table;
+        padding: 20px 20px 100px 20px;
+    }
+    
+    .link-title{
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    
+    .inner-under-link{
+        display: table-cell;
+    }
+}
+@media all and (orientation:landscape) {
     .section{
         position: relative;
         width: 100%;
@@ -85,5 +107,30 @@
         height: 100vh;
         opacity: 0.1;
     }
- }
 
+    .under-links{
+        padding: 50px 10% 0 10%;
+    }
+    
+    .under-links img{
+        width: 12vw;
+        height: 12vw;
+        display: table;
+    }
+    
+    .under-links a{
+        font-size: 1.5rem;
+        color: #000;
+        display: table;
+        padding: 20px 20px 100px 20px;
+    }
+    
+    .link-title{
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    
+    .inner-under-link{
+        display: table-cell;
+    }
+}
