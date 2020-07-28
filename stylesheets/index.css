@@ -54,7 +54,13 @@
         font-size: 1.5rem;
         color: #000;
         display: table;
-        padding: 20px 20px 100px 20px;
+        padding: 5px;
+        margin: 20px 20px 100px 20px;
+        border: 2px solid #000;
+    }
+
+    .under-links a:hover{
+        box-shadow: 10px 10px 50px grey;
     }
     
     .link-title{
@@ -122,7 +128,13 @@
         font-size: 1.5rem;
         color: #000;
         display: table;
-        padding: 20px 20px 100px 20px;
+        padding: 5px;
+        margin: 20px 20px 100px 20px;
+        border: 2px solid #000;
+    }
+
+    .under-links a:hover{
+        box-shadow: 10px 10px 50px grey;
     }
     
     .link-title{
