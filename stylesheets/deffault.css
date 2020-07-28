@@ -11,7 +11,8 @@ body{
 }
 
 .header{
-    height: 150px;
+    height: 43px;
+    margin: 10px 0 10px 0;
 }
 
 .inner-header{
@@ -23,7 +24,6 @@ body{
 
 .logo{
     width: 150px;
-    height: 150px;
     display: table;
     float: left;
 }
