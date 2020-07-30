@@ -192,6 +192,8 @@
 .under-links{
     padding: 50px 10% 0 10%;
     background-color: #fff;
+    display: flex;
+    align-items: center;
 }
 
 .under-links img{
@@ -220,4 +222,5 @@
 
 .inner-under-link{
     display: table-cell;
+    flex: 1;
 }
