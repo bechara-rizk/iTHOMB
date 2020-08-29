@@ -64,17 +64,17 @@ body{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #000000;
     color: white;
     text-align: right;
     font-size: 12px;
-    height: 20px;
+    height: 30px;
 }
 
 .footer span{
     margin-right: 20px;
     position: inherit;
     bottom: 0;
+    background-color: #000000;
     right: 0;
 }
 
